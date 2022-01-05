@@ -23,12 +23,5 @@ for(let i=0;i<number;i++){
   let primer = +prompt(number1 + gun + number2 + ' = ');
   let answer = (number1+gun+number2) == primer ? 'молодец' : 'ошибка';    
   alert(number1 + gun + number2 + ' = ' + (number1+gun+number2) + ' ваш ответ ' + primer + ' ! ' + answer);
-} 
+}
 
- // for(let i = 0; i < 10;i++) {
-//     let number1 = random(minNumber, maxNumber) 
-//     let number2 = random(minNumber, maxNumber) 
-//     let primer = +prompt(number1 + ' + ' + number2 + ' =');
-//     let answer = (number1 + number2) == primer ? 'Молодец' : 'Ошибка';
-//     alert(number1 + ' + ' + number2 + ' = ' + (number1 + number2) + ' Ваш ответ ' + primer + ' ! ' + answer);
-// }
